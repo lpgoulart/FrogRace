@@ -4,6 +4,11 @@
 *	@author Project to Programmig Language 1
 */
 
+/**
+*	@see class.cpp
+*	@see class.hpp
+*/
+
 #define private public
 #include "classes.hpp"
 int main() {
@@ -12,44 +17,42 @@ int main() {
 	Frog* willem = new Frog;
 	Frog* simon = new Frog;
 
-	bool otherRace = true;
-
 	do{
+		std::srand( std::time(0) );
+		Frog::setValues( fred, willem, simon );
 
+		while ( Frog::distance <= 0 ) {
 		std::cout << "Set the distance: ";
-		std::cin >> Frog::distance;
+			std::cin >> Frog::distance;	
+					std::cin.ignore();
+		}
 		
-		std::cin.ignore();
-			std::cout << "Insert the name of the Frog¹: ";
-		fred->setName();
-
-			std::cout << "Insert the name of the Frog²: ";
-		willem->setName();
-
-			std::cout << "Insert the name of the Frog³: ";
-		simon->setName();
+		Frog::setNames( fred, willem, simon );
 			
 		std::cout << std::endl;
-
 		std::cout << "Set...Ready...Go!!\n";
+		
 		while( Frog::winner( fred, willem, simon ) == 1 ) {
 
-		fred->Jump();
-		willem->Jump();
-		simon->Jump();
+			fred->Jump();
+			willem->Jump();
+			simon->Jump();
 
-		std::cout << "Jump distancie: " << fred->distancie << "|" << willem->distancie << "|" << simon->distancie << std::endl;
-		std::cout << "Jumps: " << fred->jumpCounter << std::endl;
-		std::cout << "Distance: " << fred->jumpLenght << "|" << willem->jumpLenght << "|" << simon->jumpLenght << std::endl;	
+			std::cout << "Jump distancie: " << fred->distancie << "|" << willem->distancie << "|" << simon->distancie << std::endl;
+			std::cout << "Jumps: " << fred->jumpCounter << std::endl;
+			std::cout << "Distance: " << fred->jumpLenght << "|" << willem->jumpLenght << "|" << simon->jumpLenght << std::endl;	
 
-		std::cout << std::endl;
+			std::cout << std::endl;
 		} 
 
-		Print( fred, willem, simon );
-
 		std::cout << "\nWant to run again? \n(1) Run again\n(0) End race \n";
-		std::cin >> otherRace;
-	}while ( otherRace == true );
+		std::cin >> Frog::otherRace;
+		std::cout << "\033[2J\033[1;1H";
+	}while ( Frog::otherRace == true );
+
+	delete fred;
+	delete willem;
+	delete simon;
 	
 	return 0;
 }

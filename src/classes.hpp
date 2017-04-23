@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 #include <cstdlib>
-//#include <ctime>
+#include <ctime>
 
 class Frog {
 private: 
@@ -36,6 +36,7 @@ public:
 	*		- Jump Lenght
 	*/
 	Frog();
+
 	/**
 	*	@brief Destructor
 	*/
@@ -44,17 +45,28 @@ public:
 	/**
 	*	@brief Function to set the name of an object
 	*/
-	void setName();
-
-	/**
-	*	@brief Get values like *distancie* and *jumpCounter*
-	*/ 
-	void setValues();
+	void getName();
 
 	/**
 	*	@brief Increase the jumpCounter and set a new value for distance of the jump
 	*/
 	void Jump();
+
+	/**
+	*	@brief Set values like *distancie* and *jumpCounter*
+	*	@param Frog F1
+	*	@param Frog F2
+	*	@param Frog F3
+	*/ 
+	static void setValues( Frog* , Frog* , Frog* );
+
+	/**
+	*	@brief Call getName() funtions
+	*	@param Frog F1
+	*	@param Frog F2
+	*	@param Frog F3
+	*/
+	static void setNames( Frog* , Frog* , Frog* );
 
 	/**
 	*	@brief Check who's the winner
@@ -69,13 +81,18 @@ public:
 	*	@brief Set the total distance of the race
 	*/
 	static int distance;
+
+	/**
+	*	@brief Set variable to repet race
+	*/
+	static 	bool otherRace;
 };
 
 /**
 *	@brief Prints the results of the race
-*	@param Frog 
-*	@param Frog 
-*	@param Frog 
+*	@param Frog F1
+*	@param Frog F2
+*	@param Frog F3
 */
 void Print(Frog* , Frog* , Frog* );
 
