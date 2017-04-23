@@ -71,6 +71,12 @@ public:
 	static int distance;
 };
 
+/**
+*	@brief Prints the results of the race
+*	@param Frog 
+*	@param Frog 
+*	@param Frog 
+*/
 void Print(Frog* , Frog* , Frog* );
 
 #endif

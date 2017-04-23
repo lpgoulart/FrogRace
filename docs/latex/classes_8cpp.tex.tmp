@@ -12,7 +12,7 @@ Include dependency graph for classes.\+cpp\+:
 \begin{DoxyCompactItemize}
 \item 
 void \hyperlink{classes_8cpp_a2947b148ba7a8b860b8005121e03cfee}{Print} (\hyperlink{classFrog}{Frog} $\ast$fred, \hyperlink{classFrog}{Frog} $\ast$willem, \hyperlink{classFrog}{Frog} $\ast$simon)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Prints the results of the race. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Macro Definition Documentation}
@@ -26,8 +26,21 @@ void \hyperlink{classes_8cpp_a2947b148ba7a8b860b8005121e03cfee}{Print} (\hyperli
 \index{Print@{Print}!classes.\+cpp@{classes.\+cpp}}
 \subsubsection[{\texorpdfstring{Print(\+Frog $\ast$fred, Frog $\ast$willem, Frog $\ast$simon)}{Print(Frog *fred, Frog *willem, Frog *simon)}}]{\setlength{\rightskip}{0pt plus 5cm}void Print (
 \begin{DoxyParamCaption}
-\item[{{\bf Frog} $\ast$}]{fred, }
-\item[{{\bf Frog} $\ast$}]{willem, }
-\item[{{\bf Frog} $\ast$}]{simon}
+\item[{{\bf Frog} $\ast$}]{, }
+\item[{{\bf Frog} $\ast$}]{, }
+\item[{{\bf Frog} $\ast$}]{}
 \end{DoxyParamCaption}
 )}\hypertarget{classes_8cpp_a2947b148ba7a8b860b8005121e03cfee}{}\label{classes_8cpp_a2947b148ba7a8b860b8005121e03cfee}
+
+
+Prints the results of the race. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \hyperlink{classFrog}{Frog}} & \\
+\hline
+{\em \hyperlink{classFrog}{Frog}} & \\
+\hline
+{\em \hyperlink{classFrog}{Frog}} & \\
+\hline
+\end{DoxyParams}
