@@ -1,0 +1,33 @@
+\hypertarget{classes_8cpp}{}\section{/home/lpgoulart/\+U\+F\+R\+N/2017.1/\+L\+P\+\_\+1/\+Unidade\+\_\+\+I\+I/13\+\_\+\+Aula(Construtor)/\+Frog\+Race/src/classes.cpp File Reference}
+\label{classes_8cpp}\index{/home/lpgoulart/\+U\+F\+R\+N/2017.\+1/\+L\+P\+\_\+1/\+Unidade\+\_\+\+I\+I/13\+\_\+\+Aula(\+Construtor)/\+Frog\+Race/src/classes.\+cpp@{/home/lpgoulart/\+U\+F\+R\+N/2017.\+1/\+L\+P\+\_\+1/\+Unidade\+\_\+\+I\+I/13\+\_\+\+Aula(\+Construtor)/\+Frog\+Race/src/classes.\+cpp}}
+{\ttfamily \#include \char`\"{}classes.\+hpp\char`\"{}}\\*
+Include dependency graph for classes.\+cpp\+:
+% FIG 0
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{classes_8cpp_a6a1d6e1a12975a4e9a0b5b952e79eaad}{private}~public
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classes_8cpp_a2947b148ba7a8b860b8005121e03cfee}{Print} (\hyperlink{classFrog}{Frog} $\ast$fred, \hyperlink{classFrog}{Frog} $\ast$willem, \hyperlink{classFrog}{Frog} $\ast$simon)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\index{classes.\+cpp@{classes.\+cpp}!private@{private}}
+\index{private@{private}!classes.\+cpp@{classes.\+cpp}}
+\subsubsection[{\texorpdfstring{private}{private}}]{\setlength{\rightskip}{0pt plus 5cm}\#define private~public}\hypertarget{classes_8cpp_a6a1d6e1a12975a4e9a0b5b952e79eaad}{}\label{classes_8cpp_a6a1d6e1a12975a4e9a0b5b952e79eaad}
+
+
+\subsection{Function Documentation}
+\index{classes.\+cpp@{classes.\+cpp}!Print@{Print}}
+\index{Print@{Print}!classes.\+cpp@{classes.\+cpp}}
+\subsubsection[{\texorpdfstring{Print(\+Frog $\ast$fred, Frog $\ast$willem, Frog $\ast$simon)}{Print(Frog *fred, Frog *willem, Frog *simon)}}]{\setlength{\rightskip}{0pt plus 5cm}void Print (
+\begin{DoxyParamCaption}
+\item[{{\bf Frog} $\ast$}]{fred, }
+\item[{{\bf Frog} $\ast$}]{willem, }
+\item[{{\bf Frog} $\ast$}]{simon}
+\end{DoxyParamCaption}
+)}\hypertarget{classes_8cpp_a2947b148ba7a8b860b8005121e03cfee}{}\label{classes_8cpp_a2947b148ba7a8b860b8005121e03cfee}

@@ -1,0 +1,61 @@
+\hypertarget{file-access_8cpp}{}\section{morse\+Code\+Tool/src/file-\/access.cpp File Reference}
+\label{file-access_8cpp}\index{morse\+Code\+Tool/src/file-\/access.\+cpp@{morse\+Code\+Tool/src/file-\/access.\+cpp}}
+{\ttfamily \#include \char`\"{}file-\/access.\+hpp\char`\"{}}\\*
+{\ttfamily \#include $<$string$>$}\\*
+{\ttfamily \#include $<$fstream$>$}\\*
+Include dependency graph for file-\/access.cpp\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{file-access_8cpp_aa593ee04e79f7d9ce0c46f566a2ee3dc}{load} (std\+::string \&content)
+\begin{DoxyCompactList}\small\item\em Load, if exists, the content of a local file to manipulate. If not, use the literal value of the string parameter. \end{DoxyCompactList}\item 
+void \hyperlink{file-access_8cpp_a8004801ccd11ca9d663ac7b2329505c7}{save} (std\+::string \&message)
+\begin{DoxyCompactList}\small\item\em Save in a local file the content of a manipulated string. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Arthur Cohen 
+
+Curso\+: Bacharel em Tenologia da Informacao -\/ U\+F\+RN 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1
+\end{DoxyVersion}
+\hypertarget{translator_8cpp_Description}{}\subsection{Description}\label{translator_8cpp_Description}
+Algorithm developed for the Programming Language I grade -\/ first unit Acts as a hand tool for coding and decoding morse code from a default keyboard input or a plain text input 08/03/2017 
+
+\subsection{Function Documentation}
+\index{file-\/access.\+cpp@{file-\/access.\+cpp}!load@{load}}
+\index{load@{load}!file-\/access.\+cpp@{file-\/access.\+cpp}}
+\subsubsection[{\texorpdfstring{load(std\+::string \&content)}{load(std::string &content)}}]{\setlength{\rightskip}{0pt plus 5cm}void load (
+\begin{DoxyParamCaption}
+\item[{std\+::string \&}]{content}
+\end{DoxyParamCaption}
+)}\hypertarget{file-access_8cpp_aa593ee04e79f7d9ce0c46f566a2ee3dc}{}\label{file-access_8cpp_aa593ee04e79f7d9ce0c46f566a2ee3dc}
+
+
+Load, if exists, the content of a local file to manipulate. If not, use the literal value of the string parameter. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em content} & -\/$>$ In this method can be a input file or a literal string \\
+\hline
+\end{DoxyParams}
+\index{file-\/access.\+cpp@{file-\/access.\+cpp}!save@{save}}
+\index{save@{save}!file-\/access.\+cpp@{file-\/access.\+cpp}}
+\subsubsection[{\texorpdfstring{save(std\+::string \&message)}{save(std::string &message)}}]{\setlength{\rightskip}{0pt plus 5cm}void save (
+\begin{DoxyParamCaption}
+\item[{std\+::string \&}]{message}
+\end{DoxyParamCaption}
+)}\hypertarget{file-access_8cpp_a8004801ccd11ca9d663ac7b2329505c7}{}\label{file-access_8cpp_a8004801ccd11ca9d663ac7b2329505c7}
+
+
+Save in a local file the content of a manipulated string. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & -\/$>$ The original message in String format \\
+\hline
+\end{DoxyParams}
