@@ -6,7 +6,7 @@ Algorithm to simulate a race between 3 frogs, writen in C++ on Programmig Langua
 
 * Doxygen documentation [available, soon, on lpgoulart.wixsite/it-developer](https://lpgoulart.wixsite.com/it-developer)
 * More information and how-tos [available, soon, on lpgoulart.wixsite/it-developer](https://lpgoulart.wixsite.com/it-developer)
-* Source code [available on UFRN GitLub](https://github.com/lpgoulart/FrogRace)
+* Source code [available on GitHub](https://github.com/lpgoulart/FrogRace)
 
 ## Getting Help
 
