@@ -1,5 +1,5 @@
-\hypertarget{classes_8cpp}{}\section{/home/lpgoulart/\+U\+F\+R\+N/2017.1/\+L\+P\+\_\+1/\+Unidade\+\_\+\+I\+I/13\+\_\+\+Aula(Construtor)/\+Frog\+Race/src/classes.cpp File Reference}
-\label{classes_8cpp}\index{/home/lpgoulart/\+U\+F\+R\+N/2017.\+1/\+L\+P\+\_\+1/\+Unidade\+\_\+\+I\+I/13\+\_\+\+Aula(\+Construtor)/\+Frog\+Race/src/classes.\+cpp@{/home/lpgoulart/\+U\+F\+R\+N/2017.\+1/\+L\+P\+\_\+1/\+Unidade\+\_\+\+I\+I/13\+\_\+\+Aula(\+Construtor)/\+Frog\+Race/src/classes.\+cpp}}
+\hypertarget{classes_8cpp}{}\section{/home/lpgoulart/\+Frog\+Race/src/classes.cpp File Reference}
+\label{classes_8cpp}\index{/home/lpgoulart/\+Frog\+Race/src/classes.\+cpp@{/home/lpgoulart/\+Frog\+Race/src/classes.\+cpp}}
 {\ttfamily \#include \char`\"{}classes.\+hpp\char`\"{}}\\*
 Include dependency graph for classes.\+cpp\+:
 % FIG 0
@@ -11,7 +11,7 @@ Include dependency graph for classes.\+cpp\+:
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-void \hyperlink{classes_8cpp_a2947b148ba7a8b860b8005121e03cfee}{Print} (\hyperlink{classFrog}{Frog} $\ast$fred, \hyperlink{classFrog}{Frog} $\ast$willem, \hyperlink{classFrog}{Frog} $\ast$simon)
+void \hyperlink{classes_8cpp_aad0f345359b1bba3d581ff69994db660}{Print} (\hyperlink{classFrog}{Frog} $\ast$F1, \hyperlink{classFrog}{Frog} $\ast$F2, \hyperlink{classFrog}{Frog} $\ast$F3)
 \begin{DoxyCompactList}\small\item\em Prints the results of the race. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
@@ -19,28 +19,31 @@ void \hyperlink{classes_8cpp_a2947b148ba7a8b860b8005121e03cfee}{Print} (\hyperli
 \index{classes.\+cpp@{classes.\+cpp}!private@{private}}
 \index{private@{private}!classes.\+cpp@{classes.\+cpp}}
 \subsubsection[{\texorpdfstring{private}{private}}]{\setlength{\rightskip}{0pt plus 5cm}\#define private~public}\hypertarget{classes_8cpp_a6a1d6e1a12975a4e9a0b5b952e79eaad}{}\label{classes_8cpp_a6a1d6e1a12975a4e9a0b5b952e79eaad}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classes_8hpp}{classes.\+hpp} 
+\end{DoxySeeAlso}
 
 
 \subsection{Function Documentation}
 \index{classes.\+cpp@{classes.\+cpp}!Print@{Print}}
 \index{Print@{Print}!classes.\+cpp@{classes.\+cpp}}
-\subsubsection[{\texorpdfstring{Print(\+Frog $\ast$fred, Frog $\ast$willem, Frog $\ast$simon)}{Print(Frog *fred, Frog *willem, Frog *simon)}}]{\setlength{\rightskip}{0pt plus 5cm}void Print (
+\subsubsection[{\texorpdfstring{Print(\+Frog $\ast$\+F1, Frog $\ast$\+F2, Frog $\ast$\+F3)}{Print(Frog *F1, Frog *F2, Frog *F3)}}]{\setlength{\rightskip}{0pt plus 5cm}void Print (
 \begin{DoxyParamCaption}
 \item[{{\bf Frog} $\ast$}]{, }
 \item[{{\bf Frog} $\ast$}]{, }
 \item[{{\bf Frog} $\ast$}]{}
 \end{DoxyParamCaption}
-)}\hypertarget{classes_8cpp_a2947b148ba7a8b860b8005121e03cfee}{}\label{classes_8cpp_a2947b148ba7a8b860b8005121e03cfee}
+)}\hypertarget{classes_8cpp_aad0f345359b1bba3d581ff69994db660}{}\label{classes_8cpp_aad0f345359b1bba3d581ff69994db660}
 
 
 Prints the results of the race. 
 
 
 \begin{DoxyParams}{Parameters}
-{\em \hyperlink{classFrog}{Frog}} & \\
+{\em \hyperlink{classFrog}{Frog}} & F1 \\
 \hline
-{\em \hyperlink{classFrog}{Frog}} & \\
+{\em \hyperlink{classFrog}{Frog}} & F2 \\
 \hline
-{\em \hyperlink{classFrog}{Frog}} & \\
+{\em \hyperlink{classFrog}{Frog}} & F3 \\
 \hline
 \end{DoxyParams}

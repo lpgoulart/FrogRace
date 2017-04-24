@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jump',['Jump',['../classFrog.html#a7c7e8548354eb48bf7b7f9986e9b100c',1,'Frog']]]
+  ['getname',['getName',['../classFrog.html#aed2135d3c87ea38779a103904db1ac01',1,'Frog']]]
 ];

@@ -11,22 +11,26 @@
 \begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
 \hyperlink{classFrog_a03c9cd2a028e2466a3bfe5e9af1c12e7}{$\sim$\+Frog} ()
 \begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
-void \hyperlink{classFrog_acb8b91f14a39f0f990e3230dc13d2c6e}{set\+Name} ()
+void \hyperlink{classFrog_aed2135d3c87ea38779a103904db1ac01}{get\+Name} ()
 \begin{DoxyCompactList}\small\item\em Function to set the name of an object. \end{DoxyCompactList}\item 
-void \hyperlink{classFrog_a1bc86cc74948b27d2948d90f16f2b111}{set\+Values} ()
-\begin{DoxyCompactList}\small\item\em Get values like {\itshape distancie} and {\itshape jump\+Counter} \end{DoxyCompactList}\item 
 void \hyperlink{classFrog_a7c7e8548354eb48bf7b7f9986e9b100c}{Jump} ()
 \begin{DoxyCompactList}\small\item\em Increase the jump\+Counter and set a new value for distance of the jump. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
+static void \hyperlink{classFrog_a406747ce3a1b90e20a4d73a7c8e271e1}{set\+Values} (\hyperlink{classFrog}{Frog} $\ast$, \hyperlink{classFrog}{Frog} $\ast$, \hyperlink{classFrog}{Frog} $\ast$)
+\begin{DoxyCompactList}\small\item\em Set values like {\itshape distancie} and {\itshape jump\+Counter} \end{DoxyCompactList}\item 
+static void \hyperlink{classFrog_a9caa1655987b9fd5ee1718eb5d71243d}{set\+Names} (\hyperlink{classFrog}{Frog} $\ast$, \hyperlink{classFrog}{Frog} $\ast$, \hyperlink{classFrog}{Frog} $\ast$)
+\begin{DoxyCompactList}\small\item\em Call \hyperlink{classFrog_aed2135d3c87ea38779a103904db1ac01}{get\+Name()} funtions. \end{DoxyCompactList}\item 
 static bool \hyperlink{classFrog_aefca49315bbf86bf6c23e71143f43ef3}{winner} (\hyperlink{classFrog}{Frog} $\ast$, \hyperlink{classFrog}{Frog} $\ast$, \hyperlink{classFrog}{Frog} $\ast$)
 \begin{DoxyCompactList}\small\item\em Check who\textquotesingle{}s the winner. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Static Public Attributes}
 \begin{DoxyCompactItemize}
 \item 
 static int \hyperlink{classFrog_a5846a1d18091a9d5409cd7ab3a93abdf}{distance}
-\begin{DoxyCompactList}\small\item\em Set the total distance of the race. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Set the total distance of the race. \end{DoxyCompactList}\item 
+static bool \hyperlink{classFrog_a3069c74fde5e33eb58c40c655b1ad8f7}{other\+Race}
+\begin{DoxyCompactList}\small\item\em Set variable to repet race. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Private Attributes}
 \begin{DoxyCompactItemize}
 \item 
@@ -71,6 +75,17 @@ Destructor.
 
 
 \subsection{Member Function Documentation}
+\index{Frog@{Frog}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!Frog@{Frog}}
+\subsubsection[{\texorpdfstring{get\+Name()}{getName()}}]{\setlength{\rightskip}{0pt plus 5cm}void Frog\+::get\+Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classFrog_aed2135d3c87ea38779a103904db1ac01}{}\label{classFrog_aed2135d3c87ea38779a103904db1ac01}
+
+
+Function to set the name of an object. 
+
 \index{Frog@{Frog}!Jump@{Jump}}
 \index{Jump@{Jump}!Frog@{Frog}}
 \subsubsection[{\texorpdfstring{Jump()}{Jump()}}]{\setlength{\rightskip}{0pt plus 5cm}void Frog\+::\+Jump (
@@ -82,28 +97,50 @@ Destructor.
 
 Increase the jump\+Counter and set a new value for distance of the jump. 
 
-\index{Frog@{Frog}!set\+Name@{set\+Name}}
-\index{set\+Name@{set\+Name}!Frog@{Frog}}
-\subsubsection[{\texorpdfstring{set\+Name()}{setName()}}]{\setlength{\rightskip}{0pt plus 5cm}void Frog\+::set\+Name (
+\index{Frog@{Frog}!set\+Names@{set\+Names}}
+\index{set\+Names@{set\+Names}!Frog@{Frog}}
+\subsubsection[{\texorpdfstring{set\+Names(\+Frog $\ast$, Frog $\ast$, Frog $\ast$)}{setNames(Frog *, Frog *, Frog *)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frog\+::set\+Names (
 \begin{DoxyParamCaption}
-{}
+\item[{{\bf Frog} $\ast$}]{F1, }
+\item[{{\bf Frog} $\ast$}]{F2, }
+\item[{{\bf Frog} $\ast$}]{F3}
 \end{DoxyParamCaption}
-)}\hypertarget{classFrog_acb8b91f14a39f0f990e3230dc13d2c6e}{}\label{classFrog_acb8b91f14a39f0f990e3230dc13d2c6e}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classFrog_a9caa1655987b9fd5ee1718eb5d71243d}{}\label{classFrog_a9caa1655987b9fd5ee1718eb5d71243d}
 
 
-Function to set the name of an object. 
+Call \hyperlink{classFrog_aed2135d3c87ea38779a103904db1ac01}{get\+Name()} funtions. 
 
+
+\begin{DoxyParams}{Parameters}
+{\em \hyperlink{classFrog}{Frog}} & F1 \\
+\hline
+{\em \hyperlink{classFrog}{Frog}} & F2 \\
+\hline
+{\em \hyperlink{classFrog}{Frog}} & F3 \\
+\hline
+\end{DoxyParams}
 \index{Frog@{Frog}!set\+Values@{set\+Values}}
 \index{set\+Values@{set\+Values}!Frog@{Frog}}
-\subsubsection[{\texorpdfstring{set\+Values()}{setValues()}}]{\setlength{\rightskip}{0pt plus 5cm}void Frog\+::set\+Values (
+\subsubsection[{\texorpdfstring{set\+Values(\+Frog $\ast$, Frog $\ast$, Frog $\ast$)}{setValues(Frog *, Frog *, Frog *)}}]{\setlength{\rightskip}{0pt plus 5cm}void Frog\+::set\+Values (
 \begin{DoxyParamCaption}
-{}
+\item[{{\bf Frog} $\ast$}]{F1, }
+\item[{{\bf Frog} $\ast$}]{F2, }
+\item[{{\bf Frog} $\ast$}]{F3}
 \end{DoxyParamCaption}
-)}\hypertarget{classFrog_a1bc86cc74948b27d2948d90f16f2b111}{}\label{classFrog_a1bc86cc74948b27d2948d90f16f2b111}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classFrog_a406747ce3a1b90e20a4d73a7c8e271e1}{}\label{classFrog_a406747ce3a1b90e20a4d73a7c8e271e1}
 
 
-Get values like {\itshape distancie} and {\itshape jump\+Counter} 
+Set values like {\itshape distancie} and {\itshape jump\+Counter} 
 
+
+\begin{DoxyParams}{Parameters}
+{\em \hyperlink{classFrog}{Frog}} & F1 \\
+\hline
+{\em \hyperlink{classFrog}{Frog}} & F2 \\
+\hline
+{\em \hyperlink{classFrog}{Frog}} & F3 \\
+\hline
+\end{DoxyParams}
 \index{Frog@{Frog}!winner@{winner}}
 \index{winner@{winner}!Frog@{Frog}}
 \subsubsection[{\texorpdfstring{winner(\+Frog $\ast$, Frog $\ast$, Frog $\ast$)}{winner(Frog *, Frog *, Frog *)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Frog\+::winner (
@@ -167,9 +204,16 @@ Counter for number of jumps.
 
 Travelled distance. 
 
+\index{Frog@{Frog}!other\+Race@{other\+Race}}
+\index{other\+Race@{other\+Race}!Frog@{Frog}}
+\subsubsection[{\texorpdfstring{other\+Race}{otherRace}}]{\setlength{\rightskip}{0pt plus 5cm}bool Frog\+::other\+Race\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classFrog_a3069c74fde5e33eb58c40c655b1ad8f7}{}\label{classFrog_a3069c74fde5e33eb58c40c655b1ad8f7}
+
+
+Set variable to repet race. 
+
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-/home/lpgoulart/\+U\+F\+R\+N/2017.\+1/\+L\+P\+\_\+1/\+Unidade\+\_\+\+I\+I/13\+\_\+\+Aula(\+Construtor)/\+Frog\+Race/src/\hyperlink{classes_8hpp}{classes.\+hpp}\item 
-/home/lpgoulart/\+U\+F\+R\+N/2017.\+1/\+L\+P\+\_\+1/\+Unidade\+\_\+\+I\+I/13\+\_\+\+Aula(\+Construtor)/\+Frog\+Race/src/\hyperlink{classes_8cpp}{classes.\+cpp}\end{DoxyCompactItemize}
+/home/lpgoulart/\+Frog\+Race/src/\hyperlink{classes_8hpp}{classes.\+hpp}\item 
+/home/lpgoulart/\+Frog\+Race/src/\hyperlink{classes_8cpp}{classes.\+cpp}\end{DoxyCompactItemize}

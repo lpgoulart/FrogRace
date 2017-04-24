@@ -1,9 +1,9 @@
-#define private public
-#include "classes.hpp"
-
 /**
 *	@see classes.hpp
 */
+#define private public
+#include "classes.hpp"
+
 
 int Frog::distance;
 

@@ -2,9 +2,15 @@
 
 Algorithm to simulate a race between 3 frogs, writen in C++ on Programmig Language 1 grade at the IT Bachelor degree - UFRN
 
+## Information
+
+* Doxygen documentation [available, soon, on lpgoulart.wixsite/it-developer](https://lpgoulart.wixsite.com/it-developer)
+* More information and how-tos [available, soon, on lpgoulart.wixsite/it-developer](https://lpgoulart.wixsite.com/it-developer)
+* Source code [available on UFRN GitLub](https://github.com/lpgoulart/FrogRace)
+
 ## Getting Help
 
-* Please report bugs on the [issue tracker](http://projetos.imd.ufrn.br/forcohen/morseCodeTool/issues).
+* Please report bugs on the [issue tracker](https://github.com/lpgoulart/FrogRace/issues).
 
 ## Installation
 
