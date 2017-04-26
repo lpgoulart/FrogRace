@@ -1,3 +1,9 @@
+/**
+*	@author Leonardo Goulart
+*	@author UFRN - Universidade Federal do Rio Grande do Norte
+*	@author Project to Programmig Language 1
+*/
+
 #ifndef _CLASSES_HPP_
 #define _CLASSES_HPP_
 
@@ -5,6 +11,10 @@
 #include <string>
 #include <cstdlib>
 #include <ctime>
+
+/*
+*	@see Frog
+*/
 
 class Frog {
 private: 
@@ -42,6 +52,12 @@ public:
 	*/
 	~Frog();
 
+
+	/**
+	*	@brief Another constructor
+	*/
+	void CFrog();
+	
 	/**
 	*	@brief Function to set the name of an object
 	*/
@@ -51,6 +67,35 @@ public:
 	*	@brief Increase the jumpCounter and set a new value for distance of the jump
 	*/
 	void Jump();
+
+	/**
+	*	@brief Get the distancie value
+	*	@return distancie
+	*/
+	int getDistancie();
+
+	/**
+	*	@brief Get the Jump Length
+	*	@return jumoLenght
+	*/  
+	int getJumpLength();
+
+	/**
+	*	@brief Set jumpLength value
+	*/
+	void setJumpLength();
+	
+	/**
+	*	@brief Get the Jump Counter
+	*	@return jumpCounter
+	*/
+	int getJumpCounter();
+
+	/**
+	*	@brief get the object ID
+	*	@return ID
+	*/
+	std::string getID();
 
 	/**
 	*	@brief Set values like *distancie* and *jumpCounter*

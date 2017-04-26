@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['getname',['getName',['../classFrog.html#aed2135d3c87ea38779a103904db1ac01',1,'Frog']]]
+  ['frog',['Frog',['../classFrog.html#aca8f9a0c2bf409f2a0f876289881ede1',1,'Frog']]]
 ];

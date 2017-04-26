@@ -11,10 +11,22 @@
 \begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
 \hyperlink{classFrog_a03c9cd2a028e2466a3bfe5e9af1c12e7}{$\sim$\+Frog} ()
 \begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+void \hyperlink{classFrog_ae3562aa740199bcc33f2316dc5982620}{C\+Frog} ()
+\begin{DoxyCompactList}\small\item\em Another constructor. \end{DoxyCompactList}\item 
 void \hyperlink{classFrog_aed2135d3c87ea38779a103904db1ac01}{get\+Name} ()
 \begin{DoxyCompactList}\small\item\em Function to set the name of an object. \end{DoxyCompactList}\item 
 void \hyperlink{classFrog_a7c7e8548354eb48bf7b7f9986e9b100c}{Jump} ()
-\begin{DoxyCompactList}\small\item\em Increase the jump\+Counter and set a new value for distance of the jump. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Increase the jump\+Counter and set a new value for distance of the jump. \end{DoxyCompactList}\item 
+int \hyperlink{classFrog_a66fd9e0f17e71af3d08cf0ea40435eae}{get\+Distancie} ()
+\begin{DoxyCompactList}\small\item\em Get the distancie value. \end{DoxyCompactList}\item 
+int \hyperlink{classFrog_a134ee1af32abd5bf4395c397dd9616ab}{get\+Jump\+Length} ()
+\begin{DoxyCompactList}\small\item\em Get the Jump Length. \end{DoxyCompactList}\item 
+void \hyperlink{classFrog_a9e70fe0e853bea38df66d615215542fd}{set\+Jump\+Length} ()
+\begin{DoxyCompactList}\small\item\em Set jump\+Length value. \end{DoxyCompactList}\item 
+int \hyperlink{classFrog_a5bf95a112f8b818391a12a0c378a04c1}{get\+Jump\+Counter} ()
+\begin{DoxyCompactList}\small\item\em Get the Jump Counter. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classFrog_aebcea8c3033fc410801afe7a213c5cd8}{get\+ID} ()
+\begin{DoxyCompactList}\small\item\em get the object ID \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -42,6 +54,16 @@ int \hyperlink{classFrog_a8ce20ccfa8a10afc1465a2c60e33b53d}{jump\+Lenght}
 \begin{DoxyCompactList}\small\item\em Travelled distance. \end{DoxyCompactList}\item 
 int \hyperlink{classFrog_a3d38d6ca4384c9d2cb4b770d93cf7dd5}{jump\+Counter}
 \begin{DoxyCompactList}\small\item\em Counter for number of jumps. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Leonardo Goulart 
+
+U\+F\+RN -\/ Universidade Federal do Rio Grande do Norte 
+
+Project to Programmig Language 1 
+\end{DoxyAuthor}
 
 
 \subsection{Constructor \& Destructor Documentation}
@@ -75,6 +97,73 @@ Destructor.
 
 
 \subsection{Member Function Documentation}
+\index{Frog@{Frog}!C\+Frog@{C\+Frog}}
+\index{C\+Frog@{C\+Frog}!Frog@{Frog}}
+\subsubsection[{\texorpdfstring{C\+Frog()}{CFrog()}}]{\setlength{\rightskip}{0pt plus 5cm}void Frog\+::\+C\+Frog (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classFrog_ae3562aa740199bcc33f2316dc5982620}{}\label{classFrog_ae3562aa740199bcc33f2316dc5982620}
+
+
+Another constructor. 
+
+\index{Frog@{Frog}!get\+Distancie@{get\+Distancie}}
+\index{get\+Distancie@{get\+Distancie}!Frog@{Frog}}
+\subsubsection[{\texorpdfstring{get\+Distancie()}{getDistancie()}}]{\setlength{\rightskip}{0pt plus 5cm}int Frog\+::get\+Distancie (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classFrog_a66fd9e0f17e71af3d08cf0ea40435eae}{}\label{classFrog_a66fd9e0f17e71af3d08cf0ea40435eae}
+
+
+Get the distancie value. 
+
+\begin{DoxyReturn}{Returns}
+distancie 
+\end{DoxyReturn}
+\index{Frog@{Frog}!get\+ID@{get\+ID}}
+\index{get\+ID@{get\+ID}!Frog@{Frog}}
+\subsubsection[{\texorpdfstring{get\+I\+D()}{getID()}}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string Frog\+::get\+ID (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classFrog_aebcea8c3033fc410801afe7a213c5cd8}{}\label{classFrog_aebcea8c3033fc410801afe7a213c5cd8}
+
+
+get the object ID 
+
+\begin{DoxyReturn}{Returns}
+ID 
+\end{DoxyReturn}
+\index{Frog@{Frog}!get\+Jump\+Counter@{get\+Jump\+Counter}}
+\index{get\+Jump\+Counter@{get\+Jump\+Counter}!Frog@{Frog}}
+\subsubsection[{\texorpdfstring{get\+Jump\+Counter()}{getJumpCounter()}}]{\setlength{\rightskip}{0pt plus 5cm}int Frog\+::get\+Jump\+Counter (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classFrog_a5bf95a112f8b818391a12a0c378a04c1}{}\label{classFrog_a5bf95a112f8b818391a12a0c378a04c1}
+
+
+Get the Jump Counter. 
+
+\begin{DoxyReturn}{Returns}
+jump\+Counter 
+\end{DoxyReturn}
+\index{Frog@{Frog}!get\+Jump\+Length@{get\+Jump\+Length}}
+\index{get\+Jump\+Length@{get\+Jump\+Length}!Frog@{Frog}}
+\subsubsection[{\texorpdfstring{get\+Jump\+Length()}{getJumpLength()}}]{\setlength{\rightskip}{0pt plus 5cm}int Frog\+::get\+Jump\+Length (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classFrog_a134ee1af32abd5bf4395c397dd9616ab}{}\label{classFrog_a134ee1af32abd5bf4395c397dd9616ab}
+
+
+Get the Jump Length. 
+
+\begin{DoxyReturn}{Returns}
+jumo\+Lenght 
+\end{DoxyReturn}
 \index{Frog@{Frog}!get\+Name@{get\+Name}}
 \index{get\+Name@{get\+Name}!Frog@{Frog}}
 \subsubsection[{\texorpdfstring{get\+Name()}{getName()}}]{\setlength{\rightskip}{0pt plus 5cm}void Frog\+::get\+Name (
@@ -96,6 +185,17 @@ Function to set the name of an object.
 
 
 Increase the jump\+Counter and set a new value for distance of the jump. 
+
+\index{Frog@{Frog}!set\+Jump\+Length@{set\+Jump\+Length}}
+\index{set\+Jump\+Length@{set\+Jump\+Length}!Frog@{Frog}}
+\subsubsection[{\texorpdfstring{set\+Jump\+Length()}{setJumpLength()}}]{\setlength{\rightskip}{0pt plus 5cm}void Frog\+::set\+Jump\+Length (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classFrog_a9e70fe0e853bea38df66d615215542fd}{}\label{classFrog_a9e70fe0e853bea38df66d615215542fd}
+
+
+Set jump\+Length value. 
 
 \index{Frog@{Frog}!set\+Names@{set\+Names}}
 \index{set\+Names@{set\+Names}!Frog@{Frog}}
@@ -176,6 +276,16 @@ True or False
 
 Set the total distance of the race. 
 
+\begin{DoxyAuthor}{Author}
+Leonardo Goulart 
+
+U\+F\+RN -\/ Universidade Federal do Rio Grande do Norte 
+
+Project to Programmig Language 1 
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classes_8hpp}{classes.\+hpp} 
+\end{DoxySeeAlso}
 \index{Frog@{Frog}!distancie@{distancie}}
 \index{distancie@{distancie}!Frog@{Frog}}
 \subsubsection[{\texorpdfstring{distancie}{distancie}}]{\setlength{\rightskip}{0pt plus 5cm}int Frog\+::distancie\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{classFrog_acfa2696ff1e9483acfc3c60941a9a540}{}\label{classFrog_acfa2696ff1e9483acfc3c60941a9a540}
@@ -215,5 +325,5 @@ Set variable to repet race.
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-/home/lpgoulart/\+Frog\+Race/src/\hyperlink{classes_8hpp}{classes.\+hpp}\item 
-/home/lpgoulart/\+Frog\+Race/src/\hyperlink{classes_8cpp}{classes.\+cpp}\end{DoxyCompactItemize}
+/home/lpgoulart/\+U\+F\+R\+N/2017.\+1/\+L\+P\+\_\+1/\+Unidade\+\_\+\+I\+I/13\+\_\+\+Aula(\+Construtor)/\+Frog\+Race/src/\hyperlink{classes_8hpp}{classes.\+hpp}\item 
+/home/lpgoulart/\+U\+F\+R\+N/2017.\+1/\+L\+P\+\_\+1/\+Unidade\+\_\+\+I\+I/13\+\_\+\+Aula(\+Construtor)/\+Frog\+Race/src/\hyperlink{classes_8cpp}{classes.\+cpp}\end{DoxyCompactItemize}

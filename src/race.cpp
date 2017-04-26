@@ -5,11 +5,10 @@
 */
 
 /**
-*	@see class.cpp
-*	@see class.hpp
+*	@see classes.cpp
+*	@see classes.hpp
 */
 
-#define private public
 #include "classes.hpp"
 int main() {
 
@@ -21,7 +20,7 @@ int main() {
 		std::srand( std::time(0) );
 		Frog::setValues( fred, willem, simon );
 
-		while ( Frog::distance <= 0 ) {
+		while ( Frog::distance <= 0  ) {
 		std::cout << "Set the distance: ";
 			std::cin >> Frog::distance;	
 					std::cin.ignore();
@@ -38,9 +37,9 @@ int main() {
 			willem->Jump();
 			simon->Jump();
 
-			std::cout << "Jump distancie: " << fred->distancie << "|" << willem->distancie << "|" << simon->distancie << std::endl;
-			std::cout << "Jumps: " << fred->jumpCounter << std::endl;
-			std::cout << "Distance: " << fred->jumpLenght << "|" << willem->jumpLenght << "|" << simon->jumpLenght << std::endl;	
+			std::cout << "Jump distancie: " << fred->getDistancie() << "|" << willem->getDistancie() << "|" << simon->getDistancie() << std::endl;
+			std::cout << "Jumps: " << fred->getJumpCounter() << std::endl;
+			std::cout << "Distance: " << fred->getJumpLength() << "|" << willem->getJumpLength() << "|" << simon->getJumpLength() << std::endl;	
 
 			std::cout << std::endl;
 		} 

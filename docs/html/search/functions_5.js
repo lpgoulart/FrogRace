@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['setnames',['setNames',['../classFrog.html#a9caa1655987b9fd5ee1718eb5d71243d',1,'Frog']]],
-  ['setvalues',['setValues',['../classFrog.html#a406747ce3a1b90e20a4d73a7c8e271e1',1,'Frog']]]
+  ['print',['Print',['../classes_8cpp.html#aad0f345359b1bba3d581ff69994db660',1,'Print(Frog *F1, Frog *F2, Frog *F3):&#160;classes.cpp'],['../classes_8hpp.html#a5fd42687a75fe10c72f14f5098357d8d',1,'Print(Frog *, Frog *, Frog *):&#160;classes.cpp']]]
 ];

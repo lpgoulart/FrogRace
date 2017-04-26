@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['frog',['Frog',['../classFrog.html#aca8f9a0c2bf409f2a0f876289881ede1',1,'Frog']]]
+  ['cfrog',['CFrog',['../classFrog.html#ae3562aa740199bcc33f2316dc5982620',1,'Frog']]]
 ];
